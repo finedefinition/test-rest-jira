@@ -46,18 +46,10 @@ http://localhost:2990/jira/rest/restresource/1.0/search <br>
 "key": "TEST-6",<br>
 "description": "h4. Now it's your turn!\n{color:#707070}Now, it is your turn to create your first task. Click the <br>
 'Create' button and get your project started. {color}\nh4. If you are a JIRA Core administrator, you can create <br>
-and customize projects for your organization. \n* {color:#707070} Click on 'Create Project' under the Project menu <br>
-above and select one of the business projects to get started. {color}\n* {color:#707070}Invite team members to JIRA <br>
-Core - keyboard shortcut: !dot.png!, then type 'users' {color}\n* {color:#707070}Delete this Demo Project - keyboard <br>
-shortcut: !dot.png!, then type 'projects' {color}\n{color:#707070}Previous:{color} <br>
-[Keyboard shortcuts|TEST-5]\n\n----\n(i) <br>
-<br>
-}<br>
-]<br>
-}<br>
+....}<br>
 
 #### Response if switcher fetchAll turn on:
-![](/Users/sergii/IdeaProjects/test-rest-jira2/images/response.png)
+![](images/response.png)
 
 Full documentation is always available at:
 
