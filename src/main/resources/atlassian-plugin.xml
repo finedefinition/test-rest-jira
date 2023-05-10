@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<atlassian-plugin key="${atlassian.plugin.key}" name="${project.name}" plugins-version="2"> 
+  <plugin-info> 
+    <description>${project.description}</description>  
+    <version>${project.version}</version>  
+    <vendor name="${project.organization.name}" url="${project.organization.url}"/>  
+    <param name="plugin-icon">images/pluginIcon.png</param>  
+    <param name="plugin-logo">images/pluginLogo.png</param>
+  </plugin-info>
+
+  <!-- add our i18n resource -->  
+  <resource type="i18n" name="i18n" location="test-rest-jira"/>  
+  <!-- add our web resources -->  
+  <web-resource key="test-rest-jira-resources" name="test-rest-jira Web Resources"> 
+    <dependency>com.atlassian.auiplugin:ajs</dependency>  
+    <resource type="download" name="test-rest-jira.css" location="/css/test-rest-jira.css"/>  
+    <resource type="download" name="test-rest-jira.js" location="/js/test-rest-jira.js"/>  
+    <resource type="download" name="images/" location="/images"/>  
+    <context>test-rest-jira</context> 
+  </web-resource>  
+  <rest name="Rest Resource" i18n-name-key="rest-resource.name" key="rest-resource" path="/restresource" version="1.0"> 
+    <description key="rest-resource.description">The Rest Resource Plugin</description> 
+  </rest>
+</atlassian-plugin>
