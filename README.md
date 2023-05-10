@@ -32,7 +32,7 @@ http://localhost:2990/jira/rest/restresource/1.0/search <br>
 "maxResults": 1,<br>
 "startAt": 0,<br>
 "validateQuery": "strict",<br>
-"fetchAll": false //this switcher to output without limitation on the number of displays.<br>
+##### "fetchAll": false //this switcher to output without limitation on the number of displays.<br>
 }<br>
 <br>
 #### Response<br>
